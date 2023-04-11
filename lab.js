@@ -248,6 +248,14 @@ class Phone {
     this.price = price;
     this.solid = false;
   }
+  sell() {
+    this.sold = true 
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+
+  changePrice(newPrice) {
+    this.price = newPrice
+  }
 }
   
 /*
